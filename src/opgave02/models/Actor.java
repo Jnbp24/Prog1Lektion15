@@ -10,4 +10,9 @@ public class Actor {
         this.name = name;
         this.birthday = birthday;
     }
+
+    public String toString()
+    {
+        return "Actor name: " + name + "\n" + "Actor birthday: " + birthday;
+    }
 }
